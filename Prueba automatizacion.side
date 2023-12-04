@@ -1,0 +1,389 @@
+{
+  "id": "f53e3006-32fe-4102-974c-0acd6bcc4880",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://sigeiacademico.itla.edu.do",
+  "tests": [{
+    "id": "c1f19a3d-3932-4182-84ff-c6e30ba27b9e",
+    "name": "Login",
+    "commands": [{
+      "id": "c6cceadd-ab0a-4c75-9b83-41a47861445a",
+      "comment": "",
+      "command": "open",
+      "target": "/account/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41c16358-d03f-48d8-b8c9-cc7d9a622e3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1020x553",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf88fddf-5015-4717-895b-e8203bae094f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//body[@id='kt_body']/app-root/ng-component/ng-component/form/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Josuemesa14@hotmail.com "
+    }, {
+      "id": "cd56e0fe-516d-419e-ba57-f74e22824b76",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//body[@id='kt_body']/app-root/ng-component/ng-component/form/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Josuemesa1233"
+    }, {
+      "id": "8d00d3da-0b2d-4b48-a8e4-6dc1dade91d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogin",
+      "targets": [
+        ["id=btnLogin", "id"],
+        ["css=#btnLogin", "css:finder"],
+        ["xpath=//button[@id='btnLogin']", "xpath:attributes"],
+        ["xpath=//body[@id='kt_body']/app-root/ng-component/ng-component/form/div/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c08e24ad-7ea1-4a0c-8aaf-9bf8cb127d60",
+    "name": "Plan de estudio",
+    "commands": [{
+      "id": "57081766-dbf1-4603-ab24-f635326d511a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85d8f9c0-0193-4cd8-9334-ca946cd05eab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1020x553",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d9a9139-8df0-4a56-9fe5-fed7599be5ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-sass > .hex:nth-child(2) > div:nth-child(3)",
+      "targets": [
+        ["css=.color-sass > .hex:nth-child(2) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='kt_content']/div/div/div/div/div/div[2]/div/div[2]/div/a/div/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ed628d0-dea6-4542-a92a-805dd09266d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/study-plan')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "617e1361-2f66-4e65-a3ab-4ad2c8f421b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/study-plan')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "617f3a73-bc99-4a26-89cd-29ddc7f94fd0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-item > .active",
+      "targets": [
+        ["css=.nav-item > .active", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/study-plan')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f7fac0e-a146-40ab-8e27-e2fe4bed1686",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav-item > .active",
+      "targets": [
+        ["css=.nav-item > .active", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/study-plan')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac14c2ee-6643-4a6d-a1e1-96833606d3a0",
+    "name": "Graduacion",
+    "commands": [{
+      "id": "4cae2faa-53b1-4131-ba17-fb940fb5b4ad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75ddc3b8-120b-47c3-b010-700111c925cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a4b3c3e-d461-4912-adfb-d743cdcf4f11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(2) .hex:nth-child(2) > div:nth-child(3)",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) .hex:nth-child(2) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='kt_content']/div/div/div/div/div/div[2]/div/div[2]/div[2]/a/div/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da79a0f-6122-4f16-8a4f-9327d9f13e80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flaticon-contratacion",
+      "targets": [
+        ["css=.flaticon-contratacion", "css:finder"],
+        ["xpath=//a[@id='academic_toggle']/i", "xpath:idRelative"],
+        ["xpath=//li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a57264a-1a2e-44b7-80c1-305a1879f991",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flaticon-graduated",
+      "targets": [
+        ["css=.flaticon-graduated", "css:finder"],
+        ["xpath=//div[@id='academic']/div[2]/div/div[5]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[5]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0a4e754d-5c0a-4a74-921e-49231029e133",
+    "name": "Pago",
+    "commands": [{
+      "id": "f967287c-fa6f-497c-8cc3-ea7a50d4bc66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20765a09-51a7-433e-94a2-ca95eab12dab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce2c5f02-e067-482f-a8e8-f681a45dc51e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-html > .hex:nth-child(2) > div:nth-child(3)",
+      "targets": [
+        ["css=.color-html > .hex:nth-child(2) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='kt_content']/div/div/div/div/div/div[2]/div/div[2]/div[6]/a/div/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1946e659-efa1-4f2a-977b-0ce3c6574a7f",
+    "name": "Transporte",
+    "commands": [{
+      "id": "4c90166b-df5c-4895-a31c-526fd5415fb0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb855b3a-a483-4f5d-9274-6d8d883eb20e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b49cb180-15b6-4385-b4cc-ee2f4beee8f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-vuejs > .hex:nth-child(2) > div:nth-child(3)",
+      "targets": [
+        ["css=.color-vuejs > .hex:nth-child(2) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='kt_content']/div/div/div/div/div/div[2]/div/div[2]/div[5]/a/div/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85fdb045-a997-4991-bc47-e02519b7ecd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha",
+      "targets": [
+        ["id=fecha", "id"],
+        ["name=fecha", "name"],
+        ["css=#fecha", "css:finder"],
+        ["xpath=//input[@id='fecha']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0400c66b-2fdc-48a8-aacb-36a8be4c46f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=7",
+      "targets": [
+        ["linkText=7", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'7')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "869625b2-1481-4cc0-9c6e-8e76bc911f52",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=7",
+      "targets": [
+        ["linkText=7", "linkText"],
+        ["css=tr:nth-child(2) > td:nth-child(5) > .ui-state-default", "css:finder"],
+        ["xpath=(//a[contains(text(),'7')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbadc133-e83e-4507-ab74-eacb1b9c5488",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ui-state-hover",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'7')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5fa8394f-3e7b-47e9-a7af-65945a78908d",
+    "name": "Historico estudiantil",
+    "commands": [{
+      "id": "e110bd62-dc56-48d0-99f9-ea20adcf7f79",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68299678-d2b5-44c9-83f3-0fb156f5324e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1020x553",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "861298e3-596a-4ef7-a3bb-742d26414fa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-sass > .hex:nth-child(2) > div:nth-child(3)",
+      "targets": [
+        ["css=.color-sass > .hex:nth-child(2) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='kt_content']/div/div/div/div/div/div[2]/div/div[2]/div/a/div/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2fc318b-5207-49af-9fba-93970eac68ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.flaticon-reclutamiento",
+      "targets": [
+        ["css=.flaticon-reclutamiento", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[3]/a/i", "xpath:idRelative"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3054bb29-a3c2-476e-a16e-d5b0455a2b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flaticon-reclutamiento",
+      "targets": [
+        ["css=.flaticon-reclutamiento", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[3]/a/i", "xpath:idRelative"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73144e82-7949-498d-b5bd-fa8dc8fc39b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-link > .flaticon-reclutamiento",
+      "targets": [
+        ["css=.nav-link > .flaticon-reclutamiento", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[3]/a/i", "xpath:idRelative"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d956b4d2-6479-4d2e-8cd0-03f73f9c2226",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav-link > .flaticon-reclutamiento",
+      "targets": [
+        ["css=.nav-link > .flaticon-reclutamiento", "css:finder"],
+        ["xpath=//div[@id='kt_aside']/div/div[2]/ul/li[3]/a/i", "xpath:idRelative"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c9e47bc-5656-490b-b4e3-626afd823507",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1f19a3d-3932-4182-84ff-c6e30ba27b9e"]
+  }],
+  "urls": ["https://sigeiacademico.itla.edu.do/"],
+  "plugins": []
+}
